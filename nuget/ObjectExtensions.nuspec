@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SimonWendel.Utilities.ObjectExtensions</id>
+    <version>1.0</version>
+    <title>Object Extensions</title>
+    <authors>Simon Wendel</authors>
+    <owners>Simon Wendel</owners>
+    <licenseUrl>https://github.com/simonwendel/object-extensions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/simonwendel/object-extensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extensions performing common operations on objects</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="..\src\SimonWendel.ObjectExtensions\bin\Release\SimonWendel.ObjectExtensions.dll" target="lib\net45" />
+  </files>
+</package>
