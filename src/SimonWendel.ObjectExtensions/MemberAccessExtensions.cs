@@ -19,11 +19,20 @@
 namespace SimonWendel.ObjectExtensions
 {
     using System;
+    using System.Diagnostics.CodeAnalysis;
     using System.Linq.Expressions;
     using System.Reflection;
 
     public static class MemberAccessExtensions
     {
+        [SuppressMessage(
+            "Microsoft.Design",
+            "CA1006:DoNotNestGenericTypesInMemberSignatures",
+            Justification = "The expression runs over a selector that has to be a function from TTarget->TProperty.")]
+        [SuppressMessage(
+            "Microsoft.Design",
+            "CA1011:ConsiderPassingBaseTypesAsParameters",
+            Justification = "Will lose type safe Lambda editing and IntelliSense")]
         public static TTarget SetProperty<TTarget, TProperty>(this TTarget target, Expression<Func<TTarget, TProperty>> selector, TProperty value)
         {
             if (selector == null)
