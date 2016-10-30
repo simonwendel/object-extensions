@@ -41,10 +41,17 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MemberAccessExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimonWendel.ObjectExtensions\SimonWendel.ObjectExtensions.csproj">
+      <Project>{2400b18e-c787-4cd6-ace1-f2c9e53be404}</Project>
+      <Name>SimonWendel.ObjectExtensions</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
