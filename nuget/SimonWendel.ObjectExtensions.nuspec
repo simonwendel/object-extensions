@@ -6,7 +6,7 @@
     <title>Object Extensions</title>
     <authors>Simon Wendel</authors>
     <owners>Simon Wendel</owners>
-    <licenseUrl>https://github.com/simonwendel/object-extensions/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.txt</licenseUrl>
     <projectUrl>https://github.com/simonwendel/object-extensions</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Extensions performing common operations on objects</description>
