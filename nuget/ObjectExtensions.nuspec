@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>SimonWendel.Utilities.ObjectExtensions</id>
+    <id>SimonWendel.ObjectExtensions</id>
     <version>1.0</version>
     <title>Object Extensions</title>
     <authors>Simon Wendel</authors>
